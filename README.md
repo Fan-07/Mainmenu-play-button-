@@ -16,12 +16,10 @@ If done right, when you load into your game, your camera must be facing the same
 and yeah.....,,,,,,,,,,,   also your hierarchy must be as followed
 
 --
-Workspace
-|_ Menu camera
 
-StarterGui
-|_ Main Menu GUI
-   |_ MainFrame
-      |_Play
+Workspace -> Menu Camera
+
+StarterGui  -> Main Menu GUI -> MainFrame -> Play
+
 --
       yeah thats all
