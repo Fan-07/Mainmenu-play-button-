@@ -13,6 +13,11 @@ local playerGui = player:WaitForChild("PlayerGui")
 local gameGui = playerGui:WaitForChild("Game GUI")
 
 button.MouseButton1Click:Connect(function()
+		--if you want other GUIs to appear after clicking play, under the above (mousebutton1click) function (here) you can add:
+		-- local playerGui = player:WaitForChild("PlayerGui") 
+		-- playerGui:WaitForChild("GUI1").Enabled = true
+        -- playerGui:WaitForChild("GUi2").Enabled = true
+        -- playerGui:WaitForChild("GUI3").Enabled = true
 
 	gameGui.Enabled = true
 
