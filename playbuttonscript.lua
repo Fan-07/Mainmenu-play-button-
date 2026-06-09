@@ -10,7 +10,6 @@ local mainFrame = gui:WaitForChild("MainFrame")
 local menuCameraScript = gui:WaitForChild("MenuCameraScript")
 
 local playerGui = player:WaitForChild("PlayerGui")
-local gameGui = playerGui:WaitForChild("Game GUI")
 
 button.MouseButton1Click:Connect(function()
 		--if you want other GUIs to appear after clicking play, under the above (mousebutton1click) function (here) you can add:
