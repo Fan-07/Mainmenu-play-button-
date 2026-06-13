@@ -25,3 +25,10 @@ StarterGui  -> Main Menu GUI -> MainFrame -> Play
 
 --
       read the code comments to get through your otherGUI management
+
+
+
+|| GLitchy Text ||
+
+your mainframe hierarchy should be: <img width="191" height="75" alt="image" src="https://github.com/user-attachments/assets/3f9128e0-a268-4891-adac-37e36f8f5184" />
+with the "letter" folder containing individual textlabels for each letters. (folder must be named "letters")
